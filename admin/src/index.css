@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import "tailwindcss";
+
+:root {
+  --primary: #1ba5b2d8;   /* teal */
+  --secondary: #f57b2acb; /* orange */    
+}
+
+::-webkit-scrollbar{
+  @apply hidden
+}
+
+*{
+  font-family: Outfit;
+}
